@@ -13,7 +13,7 @@ function writeCards(names, event) {
 function countDown(value) {
     let i = value; // the initialization moved OUTSIDE the body of the loop!
     while (i >= 0) {
-      console.log('${[i]}');
+      console.log(i);
       i --; // the iteration moves INSIDE the body of the loop!
     }
   }
